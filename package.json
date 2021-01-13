@@ -1,0 +1,23 @@
+{
+  "name": "badge-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot for Badges (Like Scout Badges)",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realQuartzi/Badge-Bot.git"
+  },
+  "author": "Quartzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/realQuartzi/Badge-Bot/issues"
+  },
+  "homepage": "https://github.com/realQuartzi/Badge-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
