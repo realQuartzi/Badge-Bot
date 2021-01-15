@@ -22,11 +22,12 @@ The reason we use the UserID is because it is the easiest to track the user as t
 
 <u>!c-badge (Badge Name)</u> || This will create the named badge for that server.
 
-<u>!g-badge (BadgeID) (UserID)</u> || This will give the User the specified Badge.
+<u>!g-badge (BadgeID) (UserID)</u> || This will give the User the specified Badge.  
+
+<u>!l-badges (Page Number)</u> || This will List 25 badges. Dependent on the Page number.  
+If you want to view badges with the ID 26+ use page 2, and etc.
+
+<u>!s-badges</u> || Returns you all the badges you have earned.
 
 <hr>
 
-**More commands are being added soon:**  
-
-Command for viewing the badges that are available with there ID so you do not have to remember them.  
-Command for viewing the badges that where awarded to you.
