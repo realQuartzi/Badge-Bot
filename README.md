@@ -29,5 +29,3 @@ If you want to view badges with the ID 26+ use page 2, and etc.
 
 <u>!s-badges</u> || Returns you all the badges you have earned.
 
-<hr>
-
