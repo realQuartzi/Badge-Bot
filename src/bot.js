@@ -183,6 +183,8 @@ function CreateUserFile(userID, guildID)
 
 function ReturnBadgeListEmbed(guildID, value)
 {
+    CreateOtherDirectory(guildID);
+
     const embed = new MessageEmbed()
     .setColor('#fccfff')
     .setTitle('Available Badges')
@@ -211,6 +213,9 @@ function ReturnBadgeListEmbed(guildID, value)
 
 function ReturnUserBadgesEmbed(userID, guildID)
 {
+    CreateOtherDirectory(guildID);
+    CreateUserFile(userID, guildID);
+
     userDir = dataDir + guildID + "/Users/" + userID + ".json";
 
     const embed = new MessageEmbed()
